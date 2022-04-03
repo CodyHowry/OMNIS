@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 10px;
+}
+
+
+
+/*   navigation*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.logo-text {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.logo-text em {
+    color: #FF753A;
+}
+
+.logo-text span {
+    color: #3881FF;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+ .social {
+     color: #FF753A!important;
+ }
+
+
+ /*    service*/
+        
+#services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('img/our-services.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#services h1 {
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+
+#services h1::after {
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.services {
+    margin: 40px;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 10px;
+    height: 80px;
+    width: 80px;
+    border: 1.5px solid #fff;
+    border-radius: 50%;
+}
+
+#services p {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc
+}
+
+.services .col-md-3:hover {
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+/*promo*/
+        
+#promo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/schedule-service.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+    font-family: sans-serif;
+    font-size: 38px;
+}
+/*    price plan*/
+
+#price {
+    padding: 40px 0;
+    background: #efefef;
+}
+
+.single-price {
+    margin: 10px auto;
+    display: inline;
+    float: left;
+    width: 100%;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+.single-price:hover {
+    box-shadow: 0 2px 20px #333;
+}
+
+.price-head {
+    background-color: #2196f3;
+    display: inline;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.price-head h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.price-head p {
+    font-size: 25px;
+    color: #ccc;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+#price span {
+    font-size: 15px;
+}
+
+.price-content {
+    display: inline;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.price-content ul li {
+    border-bottom: 1px solid #efefef;
+    padding: 15px 10px;
+    list-style: none;
+}
+
+ul li:last-child {
+    border: none;
+}
+
+.fa-check-circle {
+    color: green;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.price-button {
+    display: inline;
+    float: left;
+    padding: 15px 15px 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.buy-btn {
+    background-color: #2196f3;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+
+.buy-btn:hover {
+    border-color: 1px solid #fff;
+    background-color: #3f51b5;
+}
+
+a {
+    text-decoration: none!important;
+    color: #fff!important;
+}
+#price h1::after {
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+/* footer */
+#footer {
+    display: flex;
+    flex-direction: column;
+}
+ .footer-main {
+     width: 100%;
+     height: auto;
+     margin-top: auto;
+     background-color: #444;
+     padding: 20px 0px;
+ }
+/*footer social*/
+ .footer-social-icons {
+     width: 100%;
+     height: auto;
+     margin: auto;
+ }
+ .footer-social-icons ul {
+     margin: 0px;
+     padding: 0px;
+     text-align: center;
+ }
+ .footer-social-icons ul li {
+     display: inline-block;
+     width: 50px;
+     height: 50px;
+     margin: 0px 10px;
+     border-radius: 100%;
+     background: #007bff;
+ }
+ .footer-social-icons ul li a {
+     color: #fff;
+     font-size: 25px;
+     display: block;
+ }
+ .footer-social-icons ul li a i {
+     line-height: 50px;
+ }
+ /*footer nav links*/
+ .footer-menu-one {
+     width: 100%;
+     height: auto;
+     margin: auto;
+     margin-top: 25px;
+ }
+ .footer-menu-one ul {
+     margin: 0px;
+     padding: 0px;
+     text-align: center;
+ }
+ .footer-menu-one ul li {
+     display: inline-block;
+     margin: 0px 15px;
+ }
+ .footer-menu-one ul li a {
+     font-size: 15px;
+     font-weight: 600;
+     letter-spacing: 1px;
+     color: #fff;
+ }
+ .footer-menu-one ul li a:hover {
+    color: #3881FF !important;
+    text-decoration: none;
+}
+ .footer-menu-two {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+}
+.footer-menu-two ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.footer-menu-two ul li {
+    display: inline-block;
+    margin: 0px 15px;
+}
+.footer-menu-two ul li a {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.footer-menu-two ul li a:hover {
+    color: #3881FF!important;
+    text-decoration: none;
+}
+/*bottom part of footer*/
+ .footer-bottom {
+     width: 100%;
+     height: auto;
+     margin: auto;
+     background: #3881FF;
+     padding-top: 4px;
+ }
+ .footer-bottom p{
+     font-size: 14px;
+     text-align: center;
+     color: #fff;
+     letter-spacing: 1px;
+ }
+ .footer-bottom p a {
+     color: #fff;
+ }
+ .footer-bottom p a:hover {
+     color: #FF753A
+ }

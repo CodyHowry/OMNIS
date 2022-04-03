@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/home.jpg');
+}
+/*   navigation*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.logo-text {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.logo-text em {
+    color: #FF753A;
+}
+
+.logo-text span {
+    color: #3881FF;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+.social {
+     color: #FF753A!important;
+}
+/* home page */
+#home-text-wrapper {
+    text-align: center;
+}
+#home-text{
+    display: inline-block;
+    margin-top: 16%;
+}
+#home-text h1.main-home{
+    color: #fff!important;
+    font-weight: 700;
+    font-size: 6em;
+}
+h2.sub-home {
+    color: #007bff;
+    font-weight: 700;
+    font-size: 3em;
+}
